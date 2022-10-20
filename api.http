@@ -1,0 +1,11 @@
+POST http://localhost:3000/transactions
+Content-Type: application/json
+
+{
+  "id": "1",
+  "type": "debit",
+  "amount": 42
+}
+
+###
+GET http://localhost:3000/transactions
